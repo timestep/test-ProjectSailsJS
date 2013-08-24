@@ -17,7 +17,7 @@
   }
 
   socket.on('connect', function socketConnected() {
-
+    socket.request("/foo",{},function(users){console.log(users);});
     // Listen for Comet messages from Sails
     socket.on('message', function messageReceived(message) {
 
