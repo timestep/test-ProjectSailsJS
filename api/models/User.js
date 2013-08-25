@@ -10,10 +10,13 @@ module.exports = {
 
   attributes: {
   	
-  	name: 'string',
-  	email: 'string'
-  
-    
+  	name: {
+  		type:'string'
+  	},
+
+  	email: {
+  		type: 'string'
+  	} 
   }
 
 };
